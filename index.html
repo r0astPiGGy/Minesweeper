@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="toolbar">
+        <div id="select-container">
+            <label for="game-modes">Режим игры</label>
+            <select id="game-modes"></select>
+        </div>
+
+        <div id="result-container">
+            <p id="result-message">&nbsp;</p>
+            <button id="restart-button">Рестарт</button>
+        </div>
+
+        <p id="flags"></p>
+    </div>
+    <table id="field"></table>
+</div>
+</body>
+<script src="src/Utils.js"></script>
+<script src="src/Model.js"></script>
+<script src="src/ViewModel.js"></script>
+<script src="src/View.js"></script>
+</html>
